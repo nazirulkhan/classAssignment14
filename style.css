@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.full-website{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* header section */
+
+.menu{
+    text-align: center;
+    padding: 10px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #4ee4e4;
+}
+.menu ul li:hover{
+    background: #fff;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    position: relative;   
+}
+.menu ul li a::before{
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+    
+}
+
+.menu ul li a:hover{
+    color: #4ee4e4;
+}
+.menu ul li a:hover::before{
+    width: 100%;    
+}
+
+/* banner section */
+
+.banner{
+    background-color: #4ee4e4;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+.heading2{
+    padding: 20px;
+}
+.button a{
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    display: inline-block;
+    border-style: none;
+    color: rgb(200, 200, 200);
+    position: relative;
+    z-index: 1;
+}
+.button a::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+
+}
+
+.button a:hover::before{
+    width: 100%;
+}
+
+/* about section */
+
+.about{
+    text-align: center;
+    padding: 50px;
+}
+
+/* gallery section */
+
+.gallery{
+    text-align: center;
+    background: #fff;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+.gallery-img1{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img1 img{
+    max-width: 100%;
+    transition: .5s;
+
+}
+.gallery-img1 img:hover{
+    transform: rotate(360deg);
+}
+.gallery-img2{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img2 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.gallery-img2 img:hover{
+    transform:rotate(50deg);
+}
+.gallery-img3{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img3 img{
+    max-width: 100%;
+    transition: .5s;
+}
+
+.gallery-img3 img:hover{
+    transform:rotate(-50deg);
+}
+.gallery-img4{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img4 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.gallery-img4 img:hover{
+    transform: scale(1.1) rotate(-50deg);
+}
+.gallery-img5{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img5 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.gallery-img5 img:hover{
+    transform:rotate(50deg);
+}
+.gallery-img6{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img6 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.gallery-img6 img:hover{
+    transform: rotate(360deg);
+}
+.gallery-img7{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img7 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.gallery-img7 img:hover{
+    transform: scale(1.1) ;
+}
+.gallery-img8{
+    display: inline-block;
+    overflow: hidden;
+}
+.gallery-img8 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.gallery-img8 img:hover{
+    transform: scale(1.1) ;
+}
+
+/*  service section */
+
+.service{
+    text-align: center;
+    padding: 130px 130px 0px 130px;
+}
+.para2{
+    text-align: justify;
+}
+.basicDesign{
+    height: 20px;
+    width: 40px;
+    background: #000;
+    margin: 20px;
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+}
+.div1{
+    transform: rotate(-50deg);
+    margin-right: 200px;
+    transition: .5s;
+}
+.div1:hover{
+    transform: scale(1.1);
+    background-color:  #4ee4e4;
+    color: #000;
+
+}
+.div2{
+    transform: translate(0px,5px);
+    transition: .5s; 
+}
+.div2:hover{
+    transform: scale(1.1);
+    background-color:  #4ee4e4;
+    color: #000;
+
+}
+.div3{
+    transform: rotate(50deg);
+    margin-left: 200px;
+    transition: .5s;
+}
+.div3:hover{
+    transform: scale(1.1);
+    background-color:  #4ee4e4;
+    color: #000;
+
+}
+
+/* footer section */
+
+.footer-div{
+    text-align: center;
+    background-color: #2c3e50;
+    padding: 10px;
+    color: #fff;
+}
